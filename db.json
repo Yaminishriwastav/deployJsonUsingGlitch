@@ -8,7 +8,16 @@
        { "id": 2,
        "name": "anjali",
         "email": "anjali@gmail.com"
+       },
+       { "id": 3,
+       "name": "mohit",
+        "email": "mohit @gmail.com"
+       },
+       { "id": 4,
+       "name": "priya",
+        "email": "priya@gmail.com"
        }
+
 
     ],
   
