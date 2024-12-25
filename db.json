@@ -1,4 +1,18 @@
 {
+  "users": [
+      { "id": 1,
+       "name": "yamini",
+        "email": "yaminishriwastav@gmail.com.com"
+       }, 
+
+       { "id": 2,
+       "name": "anjali",
+        "email": "anjali@gmail.com"
+       }
+
+    ],
+  
+  
   "posts": [
     {
       "id": "1",
