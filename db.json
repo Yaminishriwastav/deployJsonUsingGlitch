@@ -1,4 +1,29 @@
 {
+  
+    "questions": [
+      {
+        "id": 1,
+        "title": "Which of the following methods is used to update?",
+        "optionA": "GET",
+        "optionB": "POST",
+        "optionC": "PATCH",
+        "optionD": "DELETE",
+        "correctOption": "C",
+        "reviewStatus": false
+      },
+      {
+        "id": 2,
+        "title": "What is the default HTTP method for fetch?",
+        "optionA": "GET",
+        "optionB": "POST",
+        "optionC": "PUT",
+        "optionD": "DELETE",
+        "correctOption": "A",
+        "reviewStatus": false
+      }
+    ],
+
+  
   "users": [
       { "id": 1,
        "name": "yamini",
