@@ -1,4 +1,16 @@
 {
+  "todos":[
+    {
+      "id":1,
+      "text":"Lear js"
+      
+    },
+    {
+      "id":1,
+      "text":"Lear html"
+      
+    }
+  ],
   "book":[{
     "title": "Book Title",
     "author": "Author Name",
