@@ -2,87 +2,179 @@
   "users": [
     {
       "id": 1,
-      "username": "john_doe",
-      "email": "john@example.com",
-      "password": "hashed_password",
-      "wishlist": [],
-      "cart": []
+      "username": "radhika123",
+      "password": "securepass1",
+      "email": "radhika123@gmail.com",
+      "wishlist": [1, 5, 9],
+      "cart": [3, 7]
     },
     {
       "id": 2,
-      "username": "jane_doe",
-      "email": "jane@example.com",
-      "password": "hashed_password",
+      "username": "aman92",
+      "password": "amanrocks",
+      "email": "aman92@hotmail.com",
+      "wishlist": [2, 6, 8],
+      "cart": [4]
+    },
+    {
+      "id": 3,
+      "username": "priya_k",
+      "password": "priya@k2022",
+      "email": "priya.k@gmail.com",
       "wishlist": [],
       "cart": []
     }
   ],
-  "products": [
+  "gifts": [
     {
       "id": 1,
       "name": "Soft Teddy Bear",
       "category": "Soft Toys",
-      "price": 999,
-      "image": "images/soft_teddy_bear.jpg",
-      "description": "A cuddly soft teddy bear to bring warmth and comfort.",
-      "special_line": "A gift that wraps you in love and comfort."
+      "price": 799,
+      "currency": "INR",
+      "description": "A cuddly soft teddy bear perfect for spreading warmth and love.",
+      "tagline": "Hug your way to happiness!",
+      "image": "https://example.com/images/teddy-bear.jpg"
     },
     {
       "id": 2,
-      "name": "Fluffy Pillow",
-      "category": "Home Decor",
-      "price": 499,
-      "image": "images/fluffy_pillow.jpg",
-      "description": "A soft, fluffy pillow that promises a restful sleep.",
-      "special_line": "Rest your head on the softest clouds."
+      "name": "Bluetooth Headphones",
+      "category": "Electronics",
+      "price": 2499,
+      "currency": "INR",
+      "description": "High-quality Bluetooth headphones with noise cancellation.",
+      "tagline": "Escape into your favorite tunes!",
+      "image": "https://example.com/images/bluetooth-headphones.jpg"
     },
     {
       "id": 3,
-      "name": "Smart Watch",
-      "category": "Electronics",
-      "price": 2999,
-      "image": "images/smart_watch.jpg",
-      "description": "A sleek, smart watch to keep you connected and stylish.",
-      "special_line": "Time flies when you have a stylish companion."
+      "name": "Handcrafted Wooden Photo Frame",
+      "category": "Home Decor",
+      "price": 599,
+      "currency": "INR",
+      "description": "A beautiful wooden photo frame to cherish your memories.",
+      "tagline": "Frame the moments that matter.",
+      "image": "https://example.com/images/photo-frame.jpg"
     },
     {
       "id": 4,
-      "name": "Handcrafted Mug",
-      "category": "Kitchenware",
-      "price": 299,
-      "image": "images/handcrafted_mug.jpg",
-      "description": "A beautiful handcrafted mug for your morning coffee.",
-      "special_line": "Sip in style with this artisanal mug."
-    }
-  ],
-  "giftSuggestions": [
-    {
-      "id": 1,
-      "occasion": "Birthday",
-      "suggestions": [
-        {
-          "product_id": 1,
-          "special_line": "Give the gift of a cuddly companion this birthday!"
-        },
-        {
-          "product_id": 2,
-          "special_line": "A fluffy pillow for a restful birthday night!"
-        }
-      ]
+      "name": "Silver Necklace",
+      "category": "Jewelry",
+      "price": 1499,
+      "currency": "INR",
+      "description": "Elegant silver necklace perfect for any occasion.",
+      "tagline": "Shine with timeless beauty.",
+      "image": "https://example.com/images/silver-necklace.jpg"
     },
     {
-      "id": 2,
-      "occasion": "Anniversary",
-      "suggestions": [
-        {
-          "product_id": 3,
-          "special_line": "A stylish gift for a special anniversary moment!"
-        },
-        {
-          "product_id": 4,
-          "special_line": "A handcrafted mug to share a cup of love on your anniversary."
-        }
-      ]
+      "id": 5,
+      "name": "Personalized Mug",
+      "category": "Customized Gifts",
+      "price": 399,
+      "currency": "INR",
+      "description": "A ceramic mug customized with your favorite photo or text.",
+      "tagline": "Sip memories, one cup at a time.",
+      "image": "https://example.com/images/personalized-mug.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Designer Tote Bag",
+      "category": "Clothing",
+      "price": 999,
+      "currency": "INR",
+      "description": "Stylish and spacious tote bag for daily use.",
+      "tagline": "Carry elegance wherever you go.",
+      "image": "https://example.com/images/tote-bag.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Wireless Charger",
+      "category": "Electronics",
+      "price": 1299,
+      "currency": "INR",
+      "description": "Fast and efficient wireless charger compatible with all devices.",
+      "tagline": "Power up without the tangle.",
+      "image": "https://example.com/images/wireless-charger.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Luxury Scented Candle",
+      "category": "Home Decor",
+      "price": 699,
+      "currency": "INR",
+      "description": "A luxury scented candle to elevate your home ambiance.",
+      "tagline": "Light up your world with serenity.",
+      "image": "https://example.com/images/scented-candle.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Woolen Scarf",
+      "category": "Clothing",
+      "price": 599,
+      "currency": "INR",
+      "description": "Soft and cozy woolen scarf for chilly days.",
+      "tagline": "Wrap yourself in comfort.",
+      "image": "https://example.com/images/woolen-scarf.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Leather Wallet",
+      "category": "Accessories",
+      "price": 999,
+      "currency": "INR",
+      "description": "Premium leather wallet with multiple compartments.",
+      "tagline": "Style that fits in your pocket.",
+      "image": "https://example.com/images/leather-wallet.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Set of 4 Coffee Coasters",
+      "category": "Home Decor",
+      "price": 299,
+      "currency": "INR",
+      "description": "Beautifully designed coffee coasters for your table.",
+      "tagline": "Add charm to your coffee moments.",
+      "image": "https://example.com/images/coffee-coasters.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Premium Chocolates Gift Box",
+      "category": "Food & Beverages",
+      "price": 799,
+      "currency": "INR",
+      "description": "An assortment of premium chocolates to indulge your sweet tooth.",
+      "tagline": "A treat for the taste buds.",
+      "image": "https://example.com/images/chocolates-box.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Eco-Friendly Notebook",
+      "category": "Stationery",
+      "price": 199,
+      "currency": "INR",
+      "description": "Eco-friendly notebook made from recycled materials.",
+      "tagline": "Write your green dreams.",
+      "image": "https://example.com/images/notebook.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Yoga Mat",
+      "category": "Fitness",
+      "price": 999,
+      "currency": "INR",
+      "description": "Durable and anti-slip yoga mat for all fitness enthusiasts.",
+      "tagline": "Find your zen with every pose.",
+      "image": "https://example.com/images/yoga-mat.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Bluetooth Smartwatch",
+      "category": "Electronics",
+      "price": 3999,
+      "currency": "INR",
+      "description": "Stylish smartwatch with multiple health tracking features.",
+      "tagline": "Stay connected, stay fit.",
+      "image": "https://example.com/images/smartwatch.jpg"
     }
   ]
 }
